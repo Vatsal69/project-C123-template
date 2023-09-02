@@ -52,50 +52,22 @@ while True:
                 image = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
                 cv2.imwrite("in_memory_to_disk.png", image)
 
-                # this time take a screenshot directly to disk
-                """UNCOMMENT THE CORRECT CODE
-                PROJECT 123 STARTS FROM THIS SECTION
-                """
-               '''step 1'''
+                
                     
                  pyautogui.screenshot("straight_to_disk.png")
 
-                # mediapipe.screenshot("straight_to_disk.png")
-
-                # imutils.screenshot("straight_to_disk.png")
-
-                # cv2.screenshot("straight_to_disk.png")
-
+               
 
 
 
 
                 
-                # we can then load our screenshot from disk in OpenCV format
-
-                '''UNCOMMENT THE CORRECT CODE
-                step 2
-                '''
-
-                '''
-                image = cv2.read("straight_to_disk.png")
-                cv2.imshow("Screenshot", imutils.resize(image, width=600))
-                '''
-
-                '''
-                image = cv2.read_csv("straight_to_disk.png")
-                cv2.imshow("Screenshot", imutils.resize(image, width=600))
-                '''
+               
 
                 
                 image = cv2.imread("straight_to_disk.png")
                 cv2.imshow("Screenshot", imutils.resize(image, width=600))
-                '''
-
-                '''
-                image = cv2.imread("straight_to_disk.png")
-                cv2.show("Screenshot", imutils.resize(image, width=600))
-                '''
+               
 
 
 
