@@ -58,7 +58,7 @@ while True:
                 """
                '''step 1'''
                     
-                # pyautogui.screenshot("straight_to_disk.png")
+                 pyautogui.screenshot("straight_to_disk.png")
 
                 # mediapipe.screenshot("straight_to_disk.png")
 
@@ -87,7 +87,7 @@ while True:
                 cv2.imshow("Screenshot", imutils.resize(image, width=600))
                 '''
 
-                '''
+                
                 image = cv2.imread("straight_to_disk.png")
                 cv2.imshow("Screenshot", imutils.resize(image, width=600))
                 '''
